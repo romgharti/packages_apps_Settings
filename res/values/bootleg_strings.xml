@@ -33,4 +33,7 @@
     <string name="bootleg_type_unknown">Unsupported. ¯\\_(ツ)_/¯</string>
     <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
 
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
 </resources>
