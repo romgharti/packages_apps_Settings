@@ -127,6 +127,16 @@
         android:order="-120"
         settings:keywords="@string/sound_settings"/>
 
+    <!-- Phone ringtone for Slot2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="ringtone2"
+        android:title="@string/ringtone2_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        settings:allowDividerAbove="false"
+        android:order="-119"/>
+
     <!-- Live Caption -110 and Now Playing -105-->
 
     <!-- Spatial audio -->
@@ -170,7 +180,7 @@
         android:visibility="gone">
 
         <!-- Custom ringtone vibration pattern 1 -->
-        <com.banana.support.preferences.CustomSeekBarPreference
+        <com.bootleggers.support.preferences.CustomSeekBarPreference
             android:key="custom_vibration_pattern1"
             android:order="-83"
             android:max="1000"
@@ -180,7 +190,7 @@
             android:dependency="vibrate_for_calls"/>
 
         <!-- Custom ringtone vibration pattern 2 -->
-        <com.banana.support.preferences.CustomSeekBarPreference
+        <com.bootleggers.support.preferences.CustomSeekBarPreference
             android:key="custom_vibration_pattern2"
             android:order="-82"
             android:max="1000"
@@ -190,7 +200,7 @@
             android:dependency="vibrate_for_calls"/>
 
         <!-- Custom ringtone vibration pattern 3 -->
-        <com.banana.support.preferences.CustomSeekBarPreference
+        <com.bootleggers.support.preferences.CustomSeekBarPreference
             android:key="custom_vibration_pattern3"
             android:order="-81"
             android:max="1000"
