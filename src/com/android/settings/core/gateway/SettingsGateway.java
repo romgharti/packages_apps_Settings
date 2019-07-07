@@ -197,6 +197,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.bootleggers.dumpster.MainDump;
+import com.bootleggers.dumpster.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -382,7 +383,8 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             MainDump.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -430,6 +432,7 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.BootlegDumpsterActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
