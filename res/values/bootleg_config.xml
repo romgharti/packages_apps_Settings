@@ -20,4 +20,7 @@
     <string name="config_batteryHealthNode"></string>
     <string name="config_batteryRemainingCapacityNode"></string>
     <string name="config_batteryDesignCapacityNode"></string>
+
+    <!-- Whether SELinux status should be shown or not. -->
+    <bool name="config_show_selinux_status">true</bool>
 </resources>
