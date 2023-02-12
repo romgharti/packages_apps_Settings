@@ -34,7 +34,7 @@
     <string name="bootleggers_releasetype_skeleton" formatted="false">%1s (%2s)</string>
 
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
+    <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 
     <!-- Radio info -->
