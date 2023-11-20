@@ -22,10 +22,10 @@
     settings:keywords="@string/keywords_android_version">
 
     <!-- Bootleggers About logo -->
-    <PreferenceScreen
+    <com.android.settingslib.widget.LayoutPreference
         android:key="bootleg_about"
-        android:enabled="false"
-        android:layout="@layout/bootleg_about" />
+        android:layout="@layout/bootleg_about"
+        android:selectable="false"/>
 
     <!-- About us -->
     <Preference
