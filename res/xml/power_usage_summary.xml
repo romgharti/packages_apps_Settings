@@ -50,13 +50,13 @@
         android:title="@string/battery_saver"
         settings:keywords="@string/keywords_battery_saver"
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
-
+<!--
     <SwitchPreference
         android:key="battery_percentage"
         android:title="@string/battery_percentage"
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
-
+-->
     <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
